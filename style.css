@@ -94,6 +94,9 @@ body {
     text-transform: uppercase;
     margin: 20px 0 30px;
 }
+.section-showcase a:hover .work-card {
+    box-shadow: 4px 4px 9px 0px #0000003b;
+}
 .work-card {
     position: relative;
     overflow: hidden;
