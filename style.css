@@ -314,7 +314,7 @@ body {
 
 @media screen and (max-width: 900px) {
 	.about-blurb {
-		flex-direction: reverse-column;
+		flex-direction: column-reverse;
 		gap: 50px;
 	}
     .about-me {
