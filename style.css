@@ -312,9 +312,12 @@ body {
   }
 
 @media screen and (max-width: 900px) {
-    .about-blurb {
+	.about-blurb {
+		flex-direction: reverse-column;
+		gap: 50px;
+	}
+    .about-me {
         width: 100%;
-        margin-left: 0;
     }
     .skills-content {
         max-width: 100%;
@@ -323,7 +326,10 @@ body {
     .skills h3 {
         margin-bottom: 50px;
     }
-    
+    .profile {
+		max-width: 500px;
+		width: 100%;
+	}
   }
 @media screen and (max-width: 600px) {
     .grid-2 {
