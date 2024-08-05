@@ -186,6 +186,7 @@ body {
     margin-top: 10px;
     font-size: clamp(20px, 1.8vw, 24px);
     font-weight: 600;
+	line-height: 100%;
 }
 .about-me {
 	width: 70%;	
