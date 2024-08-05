@@ -165,12 +165,17 @@ body {
     font-weight: 600;
 }
 .about-blurb {
+    display: flex;
     color: #fff;
-    width: 70%;
-    margin-left: auto;
     margin-top: 50px;
     line-height: 130%;
     font-size: clamp(12px, 1.3vw, 16px);
+}
+.profile {
+	width: 30%;	
+}
+.about-me {
+	width: 70%;	
 }
 .skills {
     margin-top: 50px;
