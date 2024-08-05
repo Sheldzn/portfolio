@@ -180,6 +180,7 @@ body {
 .profile img {
 	width: 100%;
 	display: block;
+	border-radius: 50%;
 }
 .profile div {
 	text-align: center;
