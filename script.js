@@ -5,7 +5,10 @@ AOS.init({
 
 const swiper = new Swiper('.swiper', {
     loop: true,
-    autoplay: true,
+    pauseOnMouseEnter: true,
+    autoplay: {
+        delay: 5000,
+    },
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
