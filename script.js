@@ -5,7 +5,7 @@ AOS.init({
 
 const swiper = new Swiper('.swiper', {
     loop: true,  
-    speed: 800,
+    speed: 2000,
     autoplay: {
         delay: 3000,
         pauseOnMouseEnter: true,        
