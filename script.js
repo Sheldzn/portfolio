@@ -4,11 +4,18 @@ AOS.init({
 });
 
 const swiper = new Swiper('.swiper', {
+<<<<<<< HEAD
     loop: true,  
     speed: 2000,
     autoplay: {
         delay: 3000,
         pauseOnMouseEnter: true,        
+=======
+    loop: true,
+    pauseOnMouseEnter: true,
+    autoplay: {
+        delay: 5000,
+>>>>>>> parent of 122a7b8 (Update styles)
     },
     pagination: {
       el: '.swiper-pagination',

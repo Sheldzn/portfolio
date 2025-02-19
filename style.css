@@ -299,7 +299,7 @@ body {
     border-radius: 0;
 }
 #showcase .swiper-pagination-bullet-active {
-    background-color: var(--main-color);
+    background-color: #fff;
 }
 /* width */
 ::-webkit-scrollbar {
