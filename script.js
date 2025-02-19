@@ -8,8 +8,7 @@ const swiper = new Swiper('.swiper', {
     pauseOnMouseEnter: true,
     speed: 1500,
     autoplay: {
-        delay: 3000,
-        pauseOnMouseEnter: true,
+        delay: 3000
     },
     pagination: {
       el: '.swiper-pagination',
