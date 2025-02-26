@@ -321,11 +321,31 @@ body {
     background: #555;
   }
 
+.dots {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+    background-size: 20px 20px;
+    animation: moveDots 10s linear infinite alternate;
+}
+
+@keyframes moveDots {
+    from {
+	background-position: 0 0;
+    }
+    to {
+	background-position: 10px 10px;
+    }
+}
+
 @media screen and (max-width: 900px) {
-	.about-blurb {
-		flex-direction: column-reverse;
-		gap: 50px;
-	}
+    .about-blurb {
+	flex-direction: column-reverse;
+	gap: 50px;
+    }
     .about-me {
         width: 100%;
     }
@@ -337,10 +357,10 @@ body {
         margin-bottom: 50px;
     }
     .profile {
-		max-width: 500px;
-		width: 100%;
-	    margin: 0 auto;
-	}
+	max-width: 500px;
+	width: 100%;
+	margin: 0 auto;
+    }
   }
 @media screen and (max-width: 600px) {
     .grid-2 {
