@@ -21,7 +21,6 @@ time, mark, audio, video {
 
 :root {
     --main-color: rgb(92, 181, 255);
-    --main-color: rgba(92, 181, 255, .8);
     --bg-color: #1a1a1a;
 }
 html {
