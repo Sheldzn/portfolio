@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 event.preventDefault();
                 el.classList.add("hover-active");
                 touched = true;
-                setTimeout(() => (touched = false), 1000);
+                setTimeout(() => (touched = false), 100);
             } else {
                 window.location.href = el.getAttribute("href");
             }
