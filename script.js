@@ -64,3 +64,20 @@ elements.forEach(element => {
      // Show the second element
      email.classList.remove('hidden');
  });
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".hover-touch").forEach((el) => {
+        let touched = false;
+
+        el.addEventListener("touchend", function (event) {
+            if (!touched) {
+                event.preventDefault();
+                el.classList.add("hover-active");
+                touched = true;
+                setTimeout(() => (touched = false), 1000);
+            } else {
+                window.location.href = el.getAttribute("href");
+            }
+        });
+    });
+});
