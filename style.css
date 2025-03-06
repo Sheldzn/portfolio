@@ -99,7 +99,7 @@ body {
     text-transform: uppercase;
     margin: 20px 0 30px;
 }
-.section-showcase a:hover .work-card, .section-showcase a.hover-active .work-card {
+.section-showcase a:hover .work-card {
     box-shadow: 4px 4px 9px 0px #0000003b;
 }
 .work-card {
@@ -149,14 +149,14 @@ body {
     text-decoration: none;
     padding-bottom: 10px;
 }
-.section-showcase a:hover .work-card-tags, .section-showcase a.hover-active .work-card-tags {
+.section-showcase a:hover .work-card-tags {
     opacity: 1;
     transform: translateY(0);
 }
-.section-showcase a:hover .card-title, .section-showcase a.hover-active .card-title {
+.section-showcase a:hover .card-title {
     color: --main-color;
 }
-.section-showcase a:hover .anm:after, .section-showcase a.hover-active .anm:after {
+.section-showcase a:hover .anm:after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
